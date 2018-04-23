@@ -1,0 +1,5 @@
+/node_modules/**
+/android/**
+/flow-typed/**
+/ios/**
+/__tests__/**

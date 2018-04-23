@@ -1,0 +1,605 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  animationOptions={Object {}}
+  onLayout={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#f2f2f2",
+      "flex": 1,
+    }
+  }
+  virtual={undefined}
+>
+  <View
+    animationOptions={Object {}}
+    onLayout={[Function]}
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingTop": 25,
+      }
+    }
+    virtual={undefined}
+  />
+  <View
+    animationOptions={Object {}}
+    onLayout={[Function]}
+    renderToHardwareTextureAndroid={true}
+    style={Object {}}
+    virtual={undefined}
+  >
+    <View
+      animationOptions={Object {}}
+      onLayout={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#f2f2f2",
+          "borderBottomWidth": 0.5,
+          "borderColor": "#f2f2f2",
+          "height": 40,
+          "justifyContent": "center",
+          "marginTop": 0,
+          "width": 750,
+        }
+      }
+      virtual={undefined}
+    >
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        collapsable={undefined}
+        hasTVPreferredFocus={undefined}
+        hitSlop={undefined}
+        isTVSelectable={true}
+        nativeID={undefined}
+        onLayout={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "borderColor": "#ffffff",
+            "borderRadius": 0,
+            "borderWidth": 0,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "opacity": 1,
+            "paddingLeft": 15,
+            "paddingRight": 5,
+          }
+        }
+        testID={undefined}
+        tvParallaxProperties={undefined}
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          animationOptions={Object {}}
+          ellipsizeMode="tail"
+          onLayout={[Function]}
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "color": "#666666",
+              "fontFamily": "Rubik-Regular",
+              "fontSize": 15,
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+              "letterSpacing": 1,
+              "marginBottom": 12,
+              "marginRight": 0,
+              "marginTop": 12,
+            }
+          }
+          virtual={undefined}
+        >
+          Typography
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          animationOptions={Object {}}
+          ellipsizeMode="tail"
+          onLayout={[Function]}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 12,
+              },
+              Object {
+                "backgroundColor": "transparent",
+                "color": "#666666",
+                "fontSize": 24,
+                "marginRight": 0,
+                "textAlign": "center",
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontFamily": "rubicon-icon-font",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }
+          virtual={undefined}
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <Modal
+      hardwareAccelerated={false}
+      onRequestClose={[Function]}
+      transparent={true}
+      visible={false}
+    >
+      <View
+        animationName="zoomOut"
+        animationOptions={
+          Object {
+            "inputRange": Array [
+              0,
+              1,
+            ],
+            "maxFactor": 1.1,
+          }
+        }
+        collapsable={undefined}
+        driver={
+          TimingDriver {
+            "animationOptions": Object {
+              "duration": 250,
+              "easing": [Function],
+            },
+            "runTimer": [Function],
+            "toValue": [Function],
+            "value": 0,
+          }
+        }
+        onLayout={[Function]}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          animationName="fadeIn"
+          animationOptions={
+            Object {
+              "inputRange": Array [
+                0,
+                1,
+              ],
+            }
+          }
+          collapsable={undefined}
+          driver={
+            TimingDriver {
+              "animationOptions": Object {
+                "duration": 250,
+                "easing": [Function],
+              },
+              "runTimer": [Function],
+              "toValue": [Function],
+              "value": 0,
+            }
+          }
+          onLayout={[Function]}
+          style={
+            Object {
+              "flex": 1,
+              "opacity": 0,
+            }
+          }
+        >
+          <View
+            animationOptions={Object {}}
+            onLayout={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "rgba(242, 242, 242, 0.97)",
+                "flex": 1,
+                "flexDirection": "column",
+                "justifyContent": "center",
+                "paddingBottom": 20,
+                "paddingTop": 20,
+              }
+            }
+            styleName="vertical"
+            virtual={undefined}
+          >
+            <View
+              accessibilityComponentType={undefined}
+              accessibilityLabel={undefined}
+              accessibilityTraits={undefined}
+              accessible={true}
+              collapsable={undefined}
+              hasTVPreferredFocus={undefined}
+              hitSlop={undefined}
+              isTVSelectable={true}
+              nativeID={undefined}
+              onLayout={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "borderColor": "#ffffff",
+                  "borderRadius": 0,
+                  "borderWidth": 0,
+                  "bottom": 25,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "left": 0,
+                  "opacity": 1,
+                  "paddingLeft": 15,
+                  "paddingRight": 5,
+                  "position": "absolute",
+                  "right": 0,
+                }
+              }
+              testID={undefined}
+              tvParallaxProperties={undefined}
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={false}
+                animationOptions={Object {}}
+                ellipsizeMode="tail"
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 12,
+                    },
+                    Object {
+                      "backgroundColor": "transparent",
+                      "color": "rgba(34, 34, 34, 0.5)",
+                      "fontSize": 24,
+                      "marginRight": 10,
+                      "textAlign": "center",
+                      "textAlignVertical": "center",
+                    },
+                    Object {
+                      "fontFamily": "rubicon-icon-font",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                  ]
+                }
+                virtual={undefined}
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </Modal>
+  </View>
+  <RCTScrollView
+    collapsable={undefined}
+    contentContainerStyle={Object {}}
+    onLayout={[Function]}
+    onScroll={[Function]}
+    scrollEventThrottle={1}
+    style={Object {}}
+    virtual={undefined}
+  >
+    <View>
+      <View
+        animationOptions={Object {}}
+        onLayout={[Function]}
+        style={
+          Object {
+            "flexDirection": "column",
+          }
+        }
+        styleName="vertical collapsed"
+        virtual={undefined}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "column",
+              "marginVertical": 24,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#444f6c",
+                "fontSize": 18,
+                "margin": 8,
+              }
+            }
+          >
+            Heading
+          </Text>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#f5f6f7",
+                "flexDirection": "column",
+                "justifyContent": "center",
+                "paddingVertical": 40,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              animationOptions={Object {}}
+              ellipsizeMode="tail"
+              onLayout={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#222222",
+                  "fontFamily": "Rubik-Regular",
+                  "fontSize": 25,
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                  "lineHeight": 30,
+                }
+              }
+              virtual={undefined}
+            >
+              Mobile App Creator
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "column",
+              "marginVertical": 24,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#444f6c",
+                "fontSize": 18,
+                "margin": 8,
+              }
+            }
+          >
+            Title
+          </Text>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#f5f6f7",
+                "flexDirection": "column",
+                "justifyContent": "center",
+                "paddingVertical": 40,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              animationOptions={Object {}}
+              ellipsizeMode="tail"
+              onLayout={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#222222",
+                  "fontFamily": "Rubik-Regular",
+                  "fontSize": 20,
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                  "lineHeight": 25,
+                }
+              }
+              virtual={undefined}
+            >
+              MOBILE APP CREATOR
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "column",
+              "marginVertical": 24,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#444f6c",
+                "fontSize": 18,
+                "margin": 8,
+              }
+            }
+          >
+            Subtitle
+          </Text>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#f5f6f7",
+                "flexDirection": "column",
+                "justifyContent": "center",
+                "paddingVertical": 40,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              animationOptions={Object {}}
+              ellipsizeMode="tail"
+              onLayout={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#222222",
+                  "fontFamily": "Rubik-Regular",
+                  "fontSize": 15,
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                  "lineHeight": 18,
+                }
+              }
+              virtual={undefined}
+            >
+              Mobile App Creator
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "column",
+              "marginVertical": 24,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#444f6c",
+                "fontSize": 18,
+                "margin": 8,
+              }
+            }
+          >
+            Text
+          </Text>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#f5f6f7",
+                "flexDirection": "column",
+                "justifyContent": "center",
+                "paddingVertical": 40,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              animationOptions={Object {}}
+              ellipsizeMode="tail"
+              onLayout={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#666666",
+                  "fontFamily": "Rubik-Regular",
+                  "fontSize": 15,
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                }
+              }
+              virtual={undefined}
+            >
+              Mobile App Creator
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "column",
+              "marginVertical": 24,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#444f6c",
+                "fontSize": 18,
+                "margin": 8,
+              }
+            }
+          >
+            Caption
+          </Text>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#f5f6f7",
+                "flexDirection": "column",
+                "justifyContent": "center",
+                "paddingVertical": 40,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              animationOptions={Object {}}
+              ellipsizeMode="tail"
+              onLayout={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#666666",
+                  "fontFamily": "Rubik-Regular",
+                  "fontSize": 12,
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.5,
+                  "lineHeight": 16,
+                }
+              }
+              virtual={undefined}
+            >
+              Mobile App Creator
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

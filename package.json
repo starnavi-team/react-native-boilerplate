@@ -1,0 +1,53 @@
+{
+  "name": "react-native-boilerplate",
+  "description": "React Native starter with Redux, Navigation, Jest and Shoutem UI",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "run:ios": "react-native run-ios",
+    "run:android": "react-native run-android",
+    "test": "jest",
+    "flow": "flow",
+    "lint": "eslint **/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starnavi-team/react-native-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/starnavi-team/react-native-boilerplate/issues"
+  },
+  "dependencies": {
+    "@shoutem/ui": "^0.23.4",
+    "react": "16.3.1",
+    "react-native": "0.55.0",
+    "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "^1.5.11",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "4.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-starnavi-react": "^1.0.0",
+    "eslint-plugin-flowtype": "^2.46.2",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "flow-bin": "^0.70.0",
+    "jest": "22.4.3",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native",
+    "transform": {
+      "^.+\\.jsx$": "babel-jest",
+      "^.+\\.js$": "babel-jest"
+    },
+    "transformIgnorePatterns": [
+      "node_modules/(?!react-native|@shoutem/theme|@shoutem/animation|@shoutem/ui)"
+    ]
+  }
+}
